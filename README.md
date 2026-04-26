@@ -1,6 +1,6 @@
-# Pedra, Papel e Tesoura - Edição Esports 🎮
+# Pedra, Papel e Tesoura - Edição E-sports 🎮
 
-Um clássico jogo de Pedra, Papel e Tesoura recriado com uma estética moderna, agressiva e imersiva inspirada no universo dos esportes eletrônicos (Esports).
+Um clássico jogo de Pedra, Papel e Tesoura recriado com uma estética moderna, agressiva e imersiva inspirada no universo dos esportes eletrônicos (E-sports).
 
 ## 🚀 Sobre o Projeto
 Este projeto pega a lógica simples de um clássico e a eleva utilizando técnicas modernas de CSS e manipulação de DOM com JavaScript. O resultado é uma interface com cara de "telão de campeonato", com direito a placar gigante, arena de embate entre as jogadas e luzes Neon que destacam o vencedor da rodada.
