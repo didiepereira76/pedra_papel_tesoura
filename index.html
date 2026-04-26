@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports: Pedra, Papel e Tesoura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="scoreboard">
+        <div class="score-box player-box">
+            <span class="label">VOCÊ</span>
+            <span id="user-score" class="score-value">0</span>
+        </div>
+        <div class="score-divider">VS</div>
+        <div class="score-box computer-box">
+            <span class="label">COM</span>
+            <span id="computer-score" class="score-value">0</span>
+        </div>
+    </header>
+
+    <main class="arena">
+        <div class="fighter player-fighter" id="player-choice">?</div>
+        <div class="vs-badge">X</div>
+        <div class="fighter computer-fighter" id="computer-choice">?</div>
+    </main>
+
+    <div class="status-panel">
+        <p id="result">ESCOLHA SUA ARMA!</p>
+        <button id="reset-btn" class="reset-btn">RESETAR JOGO</button>
+    </div>
+
+    <div class="controls">
+        <button id="pedra" class="action-btn">&#x1F44A;</button>
+        <button id="papel" class="action-btn">&#x1f590;</button>
+        <button id="tesoura" class="action-btn">&#x270c;</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
